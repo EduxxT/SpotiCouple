@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spoticouple/components/drawer_component.dart';
+import 'package:spotify_sdk/spotify_sdk.dart';
+import 'package:flutter/services.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
