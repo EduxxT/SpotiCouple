@@ -28,6 +28,13 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        manifestPlaceholders.putAll(
+    mapOf(
+        "redirectSchemeName" to "spoticouple",
+        "redirectHostName" to "callback"
+    )
+)
     }
     
     packagingOptions {
