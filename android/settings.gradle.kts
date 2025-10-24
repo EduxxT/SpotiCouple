@@ -24,3 +24,8 @@ plugins {
 }
 
 include(":app")
+include(":spotify-app-remote")
+project(":spotify-app-remote").projectDir = File("spotify-sdk/spotify-app-remote-release-0.8.0")
+
+include(":spotify-auth")
+project(":spotify-auth").projectDir = File("spotify-sdk/spotify-auth-release-1.2.6")
